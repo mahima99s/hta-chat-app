@@ -1,0 +1,113 @@
+*{
+    /*background: #FFF;*/
+    padding: 0;
+    margin: 0;
+    border: none;
+    text-decoration: none;
+    list-style-type: none;
+    color: darkcyan;
+    font-family: Ebrima, sans-serif;
+}
+
+#body{
+    background-image: url("imgs/background.png");
+    background-attachment: fixed;
+    background-repeat: repeat;
+}
+
+.header {
+    position: fixed;
+    height: 100vh;
+    width: 50px;
+    background-color: cyan;
+    z-index: 9999999;
+}
+
+.menu {
+    padding-left: 7px;
+    opacity: 0.5;
+}
+
+.menu:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.align-last {
+    height: auto;
+    width: auto;
+}
+
+.header-last-aligns {
+    position: fixed;
+    bottom: 10px;
+}
+
+.align-last>h4 {
+    padding-left: 10px;
+    padding-top: 10px;
+    opacity: 1;
+}
+
+.hovers {
+    opacity: 0.7 !important;
+    background-color: none;
+    cursor: pointer;
+}
+
+.hovers:hover {
+    opacity: 1 !important;
+}
+
+.name {
+    font-size: 125%;
+    padding-left: 50px;
+    font-weight: 200 !important;
+    display: none;
+}
+
+.user-chats{
+    height: 100vh;
+    width: 30vw;
+    position: fixed;
+    top: 0;
+    left: 50px;
+}
+
+#chats-iframe {
+    height: 100% !important;
+    width: 100% !important;
+    background-color: darkcyan;
+}
+
+.chat-area {
+    height: 80vh;
+    width: 65vw;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+#chatbox {
+    height: 100% !important;
+    width: 100% !important;
+}
+
+.message-sender {
+    overflow: hidden;
+    height: 20vh;
+    width: 65vw;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 9999999;
+}
+
+#message-sender-form {
+    overflow: hidden;
+    height: 100% !important;
+    width: 100% !important;
+}
+
+
+
