@@ -20,12 +20,12 @@
     height: 100vh;
     width: 50px;
     background-color: cyan;
-    z-index: 9999999;
+    z-index: 9999999 !important;
 }
 
 .menu {
     padding-left: 7px;
-    opacity: 0.5;
+    opacity: 0.5 !important;
 }
 
 .menu:hover {
@@ -77,7 +77,7 @@
 #chats-iframe {
     height: 100% !important;
     width: 100% !important;
-    background-color: darkcyan;
+    background-color: darkcyan !important;
 }
 
 .chat-area {
