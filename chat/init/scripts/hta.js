@@ -14,6 +14,7 @@ $(document).ready(function () {
 });
 function loader() {
     var x = "http://sahil.unaux.com/a.php";
+    //this domain is sold to someone else now
     $("#chatbox").attr("src", x);
 }
 setInterval(loader, 1000);
